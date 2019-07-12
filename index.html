@@ -138,12 +138,12 @@
 
 			<div class="__shecodeformcard">
 				<p class="__shecodeformp">We're Listening</p>
-				<form action="" method="POST" role="form">
+				<form action="send_mail.php" method="POST" role="form">
 					<div class="row">
 						<div class="col-lg-6 col-md-6 col-sm-6">
 							<div class="form-group">
 								<label class="__clabelinput">
-		                            <input type="text" placeholder=" " class="form-control __formin" required>
+		                            <input  name="first_name" type="text" placeholder=" " class="form-control __formin" required>
 		                            <span>Full-Name</span>
 		                        </label>
 							</div>
@@ -151,14 +151,14 @@
 						<div class="col-lg-6 col-md-6 col-sm-6">
 							<div class="form-group">
 								<label class="__clabelinput">
-		                            <input type="email" placeholder=" " class="form-control __formin" required>
+		                            <input name="email_address" type="email" placeholder=" " class="form-control __formin" required >
 		                            <span>Email</span>
 		                        </label>
 							</div>
 						</div>
 					</div><br>
 					<div class="form-group">
-						<textarea name="" id="input" class="form-control" rows="5" placeholder="Message" required="required"></textarea>
+						<textarea name="message" id="input" class="form-control" rows="5" placeholder="Message" required="required"></textarea>
 					</div>
 					
 					<div class="text-center">
